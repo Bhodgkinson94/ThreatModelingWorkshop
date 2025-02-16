@@ -18,6 +18,6 @@
     SolariHealthApp->>Attacker: Malicious SQL query is validated 
     BackendServer->>CnCServer: Communication established
     CnCServer->>BackendServer: Commands issued
-    BackendServer->>CnCServer: Access Granted to view, Alter or Delete records.
+    BackendServer->>CnCServer: Access Granted to View, Alter or Delete records.
     BackendServer->>CnCServer: Act as Database administrator 
     deactivate Attacker
